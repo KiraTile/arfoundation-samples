@@ -59,7 +59,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
             CreateFeatureBlendMapping();
         }
 
-        void CreateFeatureBlendMapping()
+        protected virtual void CreateFeatureBlendMapping()
         {
             if (skinnedMeshRenderer == null || skinnedMeshRenderer.sharedMesh == null)
             {
