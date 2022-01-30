@@ -48,7 +48,7 @@ namespace UnityEngine.XR.ARFoundation.Samples
     #if UNITY_IOS && !UNITY_EDITOR
         ARKitFaceSubsystem m_ARKitFaceSubsystem;
 
-        Dictionary<ARKitBlendShapeLocation, int> m_FaceArkitBlendShapeIndexMap;
+        protected Dictionary<ARKitBlendShapeLocation, int> m_FaceArkitBlendShapeIndexMap;
     #endif
 
         ARFace m_Face;

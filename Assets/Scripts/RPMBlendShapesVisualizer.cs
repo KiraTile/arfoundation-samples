@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation.Samples;
+using UnityEngine.XR.ARKit;
 
 public class RPMBlendShapesVisualizer : ARKitBlendShapeVisualizer
 {
